@@ -20,20 +20,60 @@ body {
   max-width: 90%;
   margin: 0 auto;
   padding: 0 1rem;
+  justify-content: space-between;
 }
+
+.header-text {
+  flex: 1;
+  margin-left: 1rem;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .header-logo {
   width: 48px;
   height: 48px;
   border-radius: 8px;
-  margin-right: 1rem;
   box-shadow: 0 2px 8px rgba(30, 40, 90, 0.1);
 }
+
+.github-link {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.github-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.2);
+}
+
 .main-header h1 {
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
   letter-spacing: 0.01em;
   color: #ffffff;
+  white-space: nowrap;
+}
+
+.main-header h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  color: #e8eaf6;
+  line-height: 1.4;
 }
 
 .instructions-section {

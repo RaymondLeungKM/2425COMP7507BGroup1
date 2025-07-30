@@ -6,7 +6,7 @@ Group 1 of COMP7507 Visualization &amp; Visual Analytics Course Project (2024-25
 
 ### 🖥️ Local Access
 
-Download the **On the Right Track\_.twbx** file from this repository and open it locally on your PC using Tableau Desktop or Tableau Reader.
+Download the **On the Right Track.twbx** file from this repository and open it locally on your PC using Tableau Desktop or Tableau Public.
 
 ### 🌐 Online Access
 
